@@ -38,14 +38,14 @@ Current release info
 Installing azure-mgmt-rdbms
 ===========================
 
-Installing `azure-mgmt-rdbms` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `azure-mgmt-rdbms` from the `conda-forge/label/azure-mgmt-rdbms_rc` channel can be achieved by adding `conda-forge/label/azure-mgmt-rdbms_rc` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/azure-mgmt-rdbms_rc
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `azure-mgmt-rdbms` can be installed with `conda`:
+Once the `conda-forge/label/azure-mgmt-rdbms_rc` channel has been enabled, `azure-mgmt-rdbms` can be installed with `conda`:
 
 ```
 conda install azure-mgmt-rdbms
@@ -60,26 +60,26 @@ mamba install azure-mgmt-rdbms
 It is possible to list all of the versions of `azure-mgmt-rdbms` available on your platform with `conda`:
 
 ```
-conda search azure-mgmt-rdbms --channel conda-forge
+conda search azure-mgmt-rdbms --channel conda-forge/label/azure-mgmt-rdbms_rc
 ```
 
 or with `mamba`:
 
 ```
-mamba search azure-mgmt-rdbms --channel conda-forge
+mamba search azure-mgmt-rdbms --channel conda-forge/label/azure-mgmt-rdbms_rc
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search azure-mgmt-rdbms --channel conda-forge
+mamba repoquery search azure-mgmt-rdbms --channel conda-forge/label/azure-mgmt-rdbms_rc
 
 # List packages depending on `azure-mgmt-rdbms`:
-mamba repoquery whoneeds azure-mgmt-rdbms --channel conda-forge
+mamba repoquery whoneeds azure-mgmt-rdbms --channel conda-forge/label/azure-mgmt-rdbms_rc
 
 # List dependencies of `azure-mgmt-rdbms`:
-mamba repoquery depends azure-mgmt-rdbms --channel conda-forge
+mamba repoquery depends azure-mgmt-rdbms --channel conda-forge/label/azure-mgmt-rdbms_rc
 ```
 
 
@@ -150,4 +150,5 @@ Feedstock Maintainers
 =====================
 
 * [@MementoRC](https://github.com/MementoRC/)
+* [@janjagusch](https://github.com/janjagusch/)
 
