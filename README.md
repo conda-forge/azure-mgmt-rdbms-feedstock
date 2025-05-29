@@ -150,7 +150,5 @@ Feedstock Maintainers
 =====================
 
 * [@MementoRC](https://github.com/MementoRC/)
-
-
-<!-- dummy commit to enable rerendering -->
+* [@janjagusch](https://github.com/janjagusch/)
 
