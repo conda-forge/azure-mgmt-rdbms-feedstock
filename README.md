@@ -150,4 +150,5 @@ Feedstock Maintainers
 =====================
 
 * [@MementoRC](https://github.com/MementoRC/)
+* [@janjagusch](https://github.com/janjagusch/)
 
